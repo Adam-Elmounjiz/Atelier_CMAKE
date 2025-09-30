@@ -12,7 +12,7 @@ int main(int argc, char *argv[]){
 	double r = 0;
 	if (strcmp(op, "add") == 0) {
 		r = _add(atof(a), atof(b));
-		printf("%lf",r);
+		printf("%lf",r); 
 	}
 	else if (strcmp(op, "sub") == 0) {
 		r = _sub(atof(a), atof(b));
